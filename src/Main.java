@@ -20,6 +20,7 @@ public class Main {
                 while (randomCard == null){
                     randomSuit = (int)(Math.random()*4);
                     randomNumber = (int)(Math.random()*13);
+
                     randomCard = deckOfCards[randomSuit][randomNumber];
                 }
                 //take it out of the deck
